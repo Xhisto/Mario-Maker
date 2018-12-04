@@ -160,10 +160,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_1
@@ -174,10 +178,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -45, y: 64}
+        - {x: -64, y: 62}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 60}
+        - {x: 60, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_2
@@ -188,10 +198,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -61, y: -64}
+        - {x: 62, y: -64}
+        - {x: 61, y: -61}
+        - {x: 29, y: -33}
+        - {x: -19, y: -33}
+        - {x: -61, y: -55}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_3
@@ -202,10 +218,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -21, y: 28}
+        - {x: -64, y: 23}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 23}
+        - {x: 57, y: 28}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_4
@@ -216,10 +238,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -49.86914, y: 63.457886}
+        - {x: -59.21051, y: 58.02002}
+        - {x: -64, y: 50.224243}
+        - {x: -64, y: 33.45227}
+        - {x: -58.891174, y: 24.904419}
+        - {x: -51.185486, y: 18.170288}
+        - {x: 47.94629, y: 16.916382}
+        - {x: 61.967285, y: 29.467163}
+        - {x: 62.102844, y: 52.037354}
+        - {x: 57.540222, y: 57.093994}
+        - {x: 48.836487, y: 63.322388}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_5
@@ -230,10 +263,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_6
@@ -244,10 +281,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_7
@@ -258,10 +299,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -46, y: 64}
+        - {x: -56, y: 55}
+        - {x: -56, y: -12}
+        - {x: -54, y: -13}
+        - {x: -29, y: -64}
+        - {x: 18, y: -64}
+        - {x: 55, y: 2}
+        - {x: 55, y: 53}
+        - {x: 43, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_8
@@ -272,10 +322,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -45, y: 64}
+        - {x: -64, y: 62}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 60}
+        - {x: 60, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_9
@@ -286,10 +342,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 60}
+        - {x: 59, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_10
@@ -300,10 +361,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_11
@@ -314,10 +379,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 23, y: 17}
+        - {x: -20, y: 17}
+        - {x: -24, y: 16}
+        - {x: -24, y: -49}
+        - {x: -4, y: -54}
+        - {x: 8, y: -54}
+        - {x: 23, y: -42}
+        - {x: 24, y: -14}
+        - {x: 24, y: 15}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_12
@@ -328,10 +402,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -50, y: 64}
+        - {x: -56, y: 41}
+        - {x: -56, y: -4}
+        - {x: -14, y: -64}
+        - {x: 43, y: -64}
+        - {x: 55, y: -23}
+        - {x: 55, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_13
@@ -342,10 +423,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_14
@@ -356,10 +441,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -62}
+        - {x: -60, y: -64}
+        - {x: 59, y: -64}
+        - {x: 64, y: -62}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_15
@@ -370,10 +461,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 63, y: -64}
+        - {x: 64, y: -63}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_16
@@ -384,10 +480,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: 53}
+        - {x: -24, y: 41}
+        - {x: -24, y: -54}
+        - {x: 20, y: -54}
+        - {x: 24, y: -43}
+        - {x: 24, y: 42}
+        - {x: 16, y: 53}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_17
@@ -398,10 +501,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_18
@@ -412,10 +519,23 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 42, y: 64}
+        - {x: 39, y: 63}
+        - {x: 24, y: 64}
+        - {x: -62, y: 64}
+        - {x: -64, y: 63}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 60}
+        - {x: 62, y: 64}
+      - - {x: -39, y: 10}
+        - {x: 39, y: 10}
+        - {x: 39, y: -10}
+        - {x: -39, y: -10}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_19
@@ -426,10 +546,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -63}
+        - {x: -63, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_20
@@ -440,10 +565,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 59, y: -64}
+        - {x: 64, y: -62}
+        - {x: 64, y: 63}
+        - {x: 63, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_21
@@ -454,10 +585,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -14, y: 53}
+        - {x: -24, y: 26}
+        - {x: -24, y: -50}
+        - {x: -8, y: -54}
+        - {x: 10, y: -54}
+        - {x: 24, y: -43}
+        - {x: 24, y: 28}
+        - {x: 3, y: 53}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_22
@@ -468,10 +607,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -43, y: 64}
+        - {x: -64, y: 50}
+        - {x: -64, y: -24}
+        - {x: -34, y: -64}
+        - {x: 22, y: -64}
+        - {x: 64, y: -44}
+        - {x: 64, y: 56}
+        - {x: 42, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_23
@@ -482,10 +629,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+      - - {x: -39, y: 10}
+        - {x: 39, y: 10}
+        - {x: 39, y: -10}
+        - {x: -39, y: -10}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_24
@@ -496,10 +651,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_25
@@ -510,10 +669,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_26
@@ -524,10 +687,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -35, y: -15}
+        - {x: -64, y: -27}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -33}
+        - {x: 45, y: -15}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_27
@@ -538,10 +707,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -14, y: 10}
+        - {x: -24, y: 10}
+        - {x: -58, y: -23}
+        - {x: -64, y: -34}
+        - {x: -64, y: -55}
+        - {x: -60, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -34}
+        - {x: 26, y: 0}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_28
@@ -552,10 +730,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 5}
+        - {x: -12, y: 3}
+        - {x: -31, y: -33}
+        - {x: -31, y: -44}
+        - {x: -22, y: -64}
+        - {x: 21, y: -64}
+        - {x: 31, y: -42}
+        - {x: 31, y: -30}
+        - {x: -3, y: 5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_29
@@ -566,10 +753,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -63, y: 64}
+        - {x: -64, y: 63}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_30
@@ -580,10 +772,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_31
@@ -594,10 +790,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -48, y: 21}
+        - {x: -64, y: -35}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -22}
+        - {x: 55, y: 21}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_32
@@ -608,10 +810,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 54, y: -6}
+        - {x: -54, y: -6}
+        - {x: -55, y: -8}
+        - {x: -55, y: -21}
+        - {x: -50, y: -50}
+        - {x: -17, y: -64}
+        - {x: 21, y: -64}
+        - {x: 46, y: -50}
+        - {x: 55, y: -19}
+        - {x: 55, y: -9}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_33
@@ -622,10 +834,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -59, y: 32}
+        - {x: -64, y: 30}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 29}
+        - {x: 60, y: 32}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_34
@@ -636,10 +854,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 62, y: -64}
+        - {x: 64, y: -62}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_35
@@ -650,10 +873,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_36
@@ -664,10 +891,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -35, y: -15}
+        - {x: -64, y: -27}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -33}
+        - {x: 45, y: -15}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_37
@@ -678,10 +911,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -27, y: -8}
+        - {x: -37, y: -11}
+        - {x: -37, y: -60}
+        - {x: -34, y: -64}
+        - {x: 14, y: -64}
+        - {x: 37, y: -49}
+        - {x: 37, y: -19}
+        - {x: 26, y: -8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_38
@@ -692,10 +933,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -59, y: 32}
+        - {x: -64, y: 30}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 32}
+      - - {x: 39, y: -19}
+        - {x: -39, y: -19}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_39
@@ -706,10 +954,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -33, y: 64}
+        - {x: -64, y: 50}
+        - {x: -64, y: -22}
+        - {x: -40, y: -64}
+        - {x: 41, y: -64}
+        - {x: 64, y: -54}
+        - {x: 64, y: 54}
+        - {x: 30, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_40
@@ -720,10 +976,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 59, y: -64}
+        - {x: 64, y: -62}
+        - {x: 64, y: 63}
+        - {x: 63, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_41
@@ -734,10 +996,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -48, y: 21}
+        - {x: -64, y: -35}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -22}
+        - {x: 55, y: 21}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_42
@@ -748,10 +1016,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -23, y: -8}
+        - {x: -36, y: -21}
+        - {x: -37, y: -29}
+        - {x: -37, y: -39}
+        - {x: -28, y: -42}
+        - {x: -17, y: -44}
+        - {x: -13, y: -64}
+        - {x: 17, y: -64}
+        - {x: 37, y: -40}
+        - {x: 37, y: -16}
+        - {x: 29, y: -8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_44
@@ -762,10 +1041,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -58}
+        - {x: -58, y: -64}
+        - {x: 59, y: -64}
+        - {x: 64, y: -58}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_45
@@ -776,10 +1061,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -35, y: -15}
+        - {x: -64, y: -27}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -33}
+        - {x: 45, y: -15}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_46
@@ -790,10 +1081,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -59}
+        - {x: -60, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_47
@@ -804,10 +1100,16 @@ TextureImporter:
         width: 128
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -41, y: 75}
+        - {x: -64, y: 67}
+        - {x: -64, y: -128}
+        - {x: 64, y: -128}
+        - {x: 64, y: 61}
+        - {x: 50, y: 75}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_48
@@ -818,10 +1120,28 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -52, y: 53}
+        - {x: -55, y: 50}
+        - {x: -55, y: 42}
+        - {x: -52, y: 37}
+        - {x: -45, y: 39}
+        - {x: -44, y: 40}
+        - {x: -42, y: 40}
+        - {x: -44, y: 40}
+        - {x: -47, y: 36}
+        - {x: -55, y: 23}
+        - {x: -55, y: -33}
+        - {x: -40, y: -64}
+        - {x: 44, y: -64}
+        - {x: 53, y: -60}
+        - {x: 53, y: 10}
+        - {x: 49, y: 28}
+        - {x: 22, y: 42}
+        - {x: -8, y: 53}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_49
@@ -832,10 +1152,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -48, y: 21}
+        - {x: -64, y: -35}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -22}
+        - {x: 55, y: 21}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_50
@@ -846,10 +1172,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 62, y: -64}
+        - {x: 64, y: -62}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_52
@@ -860,10 +1191,28 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -52, y: 53}
+        - {x: -55, y: 50}
+        - {x: -55, y: 42}
+        - {x: -52, y: 37}
+        - {x: -45, y: 39}
+        - {x: -44, y: 40}
+        - {x: -42, y: 40}
+        - {x: -44, y: 40}
+        - {x: -47, y: 36}
+        - {x: -55, y: 23}
+        - {x: -55, y: -33}
+        - {x: -40, y: -64}
+        - {x: 44, y: -64}
+        - {x: 53, y: -60}
+        - {x: 53, y: 10}
+        - {x: 49, y: 28}
+        - {x: 22, y: 42}
+        - {x: -8, y: 53}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_53
@@ -874,10 +1223,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -35, y: -15}
+        - {x: -64, y: -27}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -33}
+        - {x: 45, y: -15}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_54
@@ -888,10 +1243,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_55
@@ -902,10 +1261,16 @@ TextureImporter:
         width: 128
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -60, y: 75}
+        - {x: -64, y: 74}
+        - {x: -64, y: -128}
+        - {x: 64, y: -128}
+        - {x: 64, y: 46}
+        - {x: 42, y: 75}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_56
@@ -916,10 +1281,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -38, y: 60}
+        - {x: -57, y: 38}
+        - {x: -58, y: 21}
+        - {x: -58, y: -62}
+        - {x: 57, y: -62}
+        - {x: 57, y: 49}
+        - {x: 39, y: 60}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_57
@@ -930,10 +1302,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -48, y: 21}
+        - {x: -64, y: -35}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -22}
+        - {x: 55, y: 21}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_58
@@ -944,10 +1322,14 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_59
@@ -958,10 +1340,33 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 18, y: -8}
+        - {x: 15, y: -4}
+        - {x: 20, y: 12}
+        - {x: 20, y: 58}
+        - {x: 18, y: 64}
+        - {x: -13, y: 64}
+        - {x: -19, y: 61}
+        - {x: -19, y: -63}
+        - {x: -12, y: -64}
+        - {x: 13, y: -64}
+        - {x: 20, y: -52}
+        - {x: 20, y: -13}
+      - - {x: -3, y: -22}
+        - {x: -2, y: -23}
+        - {x: 4, y: -23}
+        - {x: 4, y: -36}
+        - {x: -3, y: -36}
+        - {x: -4, y: -37}
+        - {x: -3, y: -37}
+      - - {x: -3, y: 36}
+        - {x: 4, y: 36}
+        - {x: 4, y: 22}
+        - {x: -3, y: 22}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_60
@@ -972,10 +1377,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -29, y: 64}
+        - {x: -45, y: 57}
+        - {x: -62, y: -19}
+        - {x: -62, y: -63}
+        - {x: -59, y: -64}
+        - {x: 62, y: -64}
+        - {x: 62, y: 53}
+        - {x: 43, y: 64}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_61
@@ -986,10 +1399,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 64, y: 30}
+        - {x: -64, y: 30}
+        - {x: -64, y: -64}
+        - {x: 51, y: -64}
+        - {x: 53, y: -63}
+        - {x: 40, y: -49}
+        - {x: 55, y: -38}
+        - {x: 64, y: -14}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_62
@@ -1000,10 +1421,18 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 31, y: 29}
+        - {x: -50, y: -25}
+        - {x: -58, y: -36}
+        - {x: -58, y: -64}
+        - {x: 59, y: -64}
+        - {x: 62, y: -59}
+        - {x: 62, y: 22}
+        - {x: 59, y: 29}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_63
@@ -1014,10 +1443,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -17, y: 42}
+        - {x: -38, y: 26}
+        - {x: -38, y: -46}
+        - {x: -31, y: -64}
+        - {x: 37, y: -64}
+        - {x: 40, y: -52}
+        - {x: 40, y: 42}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_64
@@ -1028,10 +1464,21 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -62, y: -64}
+        - {x: 62, y: -64}
+        - {x: 62, y: 0}
+        - {x: 57, y: 47}
+        - {x: 42, y: 64}
+        - {x: -33, y: 64}
+        - {x: -62, y: 44}
+      - - {x: -2, y: 54}
+        - {x: 1, y: 55}
+        - {x: 4, y: 50}
+        - {x: -1, y: 48}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_65
@@ -1042,10 +1489,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -64, y: 4}
+        - {x: -64, y: -48}
+        - {x: -58, y: -64}
+        - {x: 56, y: -64}
+        - {x: 64, y: -42}
+        - {x: 64, y: 4}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_66
@@ -1056,10 +1509,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -37, y: 45}
+        - {x: -59, y: -35}
+        - {x: -59, y: -64}
+        - {x: 58, y: -64}
+        - {x: 58, y: -17}
+        - {x: 16, y: 45}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_67
@@ -1070,10 +1529,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -43, y: 14}
+        - {x: -64, y: -30}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -35}
+        - {x: 51, y: 1}
+        - {x: 27, y: 14}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_68
@@ -1084,10 +1550,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -21, y: 28}
+        - {x: -64, y: 23}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 23}
+        - {x: 57, y: 28}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_69
@@ -1098,10 +1570,16 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -48, y: 1}
+        - {x: -64, y: -56}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -51}
+        - {x: 44, y: 1}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_70
@@ -1112,10 +1590,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -57, y: 29}
+        - {x: -62, y: 20}
+        - {x: -62, y: -37}
+        - {x: -58, y: -64}
+        - {x: 58, y: -64}
+        - {x: 58, y: -23}
+        - {x: -37, y: 29}
       tessellationDetail: 0
     - serializedVersion: 2
       name: spritesheet_tiles_71
@@ -1126,10 +1611,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -62, y: 64}
+        - {x: -64, y: 61}
+        - {x: -64, y: 31}
+        - {x: -57, y: 26}
+        - {x: 62, y: 26}
+        - {x: 64, y: 30}
+        - {x: 64, y: 64}
       tessellationDetail: 0
     outline: []
     physicsShape: []

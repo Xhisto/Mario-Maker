@@ -19,10 +19,10 @@ TagManager:
   - TriggeredEnemy
   - Ground
   - Player
-  - 
-  - 
-  - 
-  - 
+  - Editors
+  - Decoration
+  - Object
+  - Background
   - 
   - 
   - 
@@ -41,18 +41,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Editors
+    uniqueID: 1386619667
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Ground
     uniqueID: 4008859625
     locked: 0
-  - name: Decoration
-    uniqueID: 3269818595
-    locked: 0
   - name: Object
     uniqueID: 3897338689
     locked: 0
-  - name: Editors
-    uniqueID: 1386619667
+  - name: Decoration
+    uniqueID: 3269818595
+    locked: 0
+  - name: Background
+    uniqueID: 4007969089
+    locked: 0
+  - name: TriggeredEnemy
+    uniqueID: 2075056969
     locked: 0

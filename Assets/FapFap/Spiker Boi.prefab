@@ -84,6 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64211c3e8623264499d734d7ab22e4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumScoreNeeded: 0
   SceneToLoad: First
 --- !u!212 &212784285412141164
 SpriteRenderer:

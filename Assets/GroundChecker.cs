@@ -6,20 +6,9 @@ public class GroundChecker : MonoBehaviour
 {
 
     public bool isGrounded;
-    
 
-    // Use this for initialization
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    // ser ifall valda hitbox rör något
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isGrounded = true;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyRatTing : MonoBehaviour
+public class EnemyTing : MonoBehaviour
 {
     public float Speed = 10f;
     private Rigidbody2D rbody;
@@ -11,6 +11,7 @@ public class EnemyRatTing : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        // gör så att rbody variabeln är det valda Rigidbody
         rbody = GetComponent<Rigidbody2D>();
     }
 

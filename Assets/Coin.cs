@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
 
     private void Update()
     {
-        // gör så att det valda objektet roterar på sin Y axel och i realtid istället för fps.
+        // objektet roterar på sin Y axel och i realtid istället för fps.
         transform.Rotate(0, spinspeed * Time.deltaTime, 0);
     }
 

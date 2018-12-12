@@ -20,7 +20,7 @@ public class EnemyTing : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
+        // om enemi Ting går vänster, gå åt vänster. annars gå åt motsatsen av vänster.
         if (left == true)
         {
             rbody.velocity = -(Vector2)transform.right * Speed;
@@ -36,10 +36,10 @@ public class EnemyTing : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "wall")
+    {// om krockar med tagen "wall" gå åt andra vänster.
+        if (collision.tag == "wall")
         {
-        left = !left;
+            left = !left;
         }
     }
 }

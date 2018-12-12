@@ -14,22 +14,23 @@ public class Movement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        // gör så att rbody variabeln är det valda Rigidbody
+        // Rigidbody varibeln är likamed det hittade rigidbody i det valda objectet
         rbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // gör så att spelaren kan gå vänster och höger
+        // trycker man vänster höger pilen går man i det valda variabelns hastighet.
         rbody.velocity = new Vector2(Input.GetAxis("Horizontal") * movespeed, rbody.velocity.y);
-        // ifall jag trycker ner hopp knappen och min hitbox rör något, du kan hoppa.
-       
+
+        // när jag trycker ner hopp knappen och min hitbox rör något, doublejumpvalue blir till 1 och du kan hoppa.       
         if (Input.GetButtonDown("Jump") && Groundcheck.isGrounded == true)
         {
             DoubleJumpValue = 1;
-            rbody.velocity = new Vector2(rbody.velocity.x, jumpspeed);        
+            rbody.velocity = new Vector2(rbody.velocity.x, jumpspeed);
         }
+        // när jag trycker ner hopp knappen och min hitbox rör INTE något MEN double value är 1, hoppa igen och doublejumpvalue blir 0.
         if (Input.GetButtonDown("Jump") && DoubleJumpValue == 1 && Groundcheck.isGrounded == false)
         {
             rbody.velocity = new Vector2(rbody.velocity.x, jumpspeed);

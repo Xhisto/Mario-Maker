@@ -8,7 +8,7 @@ public class SetSpriteInvisible : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        // gör så att renderer på valda sprite blir avaktiverade och aergo osynlig
+        // hitta renderer på valda objectet, det blir avaktiverade och aergo osynlig
         GetComponent<SpriteRenderer>().enabled = false;
     }
 

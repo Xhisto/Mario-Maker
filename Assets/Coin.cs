@@ -14,7 +14,7 @@ public class Coin : MonoBehaviour
         // objektet roterar på sin Y axel och i realtid istället för fps.
         transform.Rotate(0, spinspeed * Time.deltaTime, 0);
     }
-
+    // ontriggerenter2D är som collision2D, men hitboxen går att gå igenom. istället för när man rör så är det när man är i hitbox zonen.
     private void OnTriggerEnter2D(Collider2D collision)
     { 
         // gör så att ifall det visade tagen kolliderar med det valda objectet, förstör det och adderas till Coin scoren.

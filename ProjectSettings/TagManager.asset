@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - wall
   - SenteryEnemy
+  - Trap
+  - Ground
   layers:
   - Default
   - TransparentFX

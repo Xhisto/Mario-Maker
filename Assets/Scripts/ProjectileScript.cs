@@ -26,7 +26,7 @@ public class ProjectileScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // om tagen är i objectets hitbox area, set x position i 31.02
-        if (collision.tag == "player")
+        if (collision.tag == "Player")
         {
             transform.position = new Vector3(31.02f, transform.position.y, transform.position.z);
         }

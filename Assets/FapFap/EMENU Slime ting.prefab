@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 60225950977123948}
   m_Layer: 0
   m_Name: EMENU Slime ting
-  m_TagString: SenteryEnemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64211c3e8623264499d734d7ab22e4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumScoreNeeded: 0
   SceneToLoad: Tutorial
 --- !u!114 &114917631168838438
 MonoBehaviour:

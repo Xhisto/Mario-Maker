@@ -21,6 +21,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Doublejump();
+    }
+
+    void Doublejump()
+    {
+
         // trycker man vänster höger pilen går man i det valda variabelns hastighet.
         rbody.velocity = new Vector2(Input.GetAxis("Horizontal") * movespeed, rbody.velocity.y);
 
